@@ -3,7 +3,12 @@ guid: 510056306dbeb3841a76223348b8d374
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: nike
+    second: {fileID: 2800000, guid: 2a0009af2df540649a75dd4aac881af1, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
