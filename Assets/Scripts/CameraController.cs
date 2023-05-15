@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] private Transform target;
-    [SerializeField] private Vector3 targetOffset;
-    [SerializeField] private float movementSpeed;
+    [SerializeField] private float mouseSensitiviti;
+    public Transform Player;
+    [SerializeField] private float xRotation;
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update()
@@ -19,6 +19,12 @@ public class CameraController : MonoBehaviour
 
     void MoveCamera()
     {
-        transform.position = Vector3.Lerp(transform.position, target.position + targetOffset, movementSpeed * Time.deltaTime);
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitiviti * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitiviti * Time.deltaTime;
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        
+        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        Player.Rotate(Vector3.up * mouseX);
     }
 }

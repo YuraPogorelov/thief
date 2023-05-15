@@ -5,18 +5,20 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float movementSpeed;
-    private Rigidbody rb;
+    public CharacterController characterController;
+    
+ 
+    
     
     void Start()
     {
-        rb = this.GetComponent<Rigidbody>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         HandleMovementInput();
-        HandleRotationInput();
     }
 
     void HandleMovementInput()
@@ -24,18 +26,12 @@ public class PlayerController : MonoBehaviour
         float _horizontal = Input.GetAxis("Horizontal");
         float _vertical = Input.GetAxis("Vertical");
 
-        Vector3 _movement = new Vector3(_horizontal, 0, _vertical);
-        transform.Translate(_movement * movementSpeed * Time.deltaTime, Space.World);
+        //Vector3 _movement = new Vector3(_horizontal, 0, _vertical);
+        //transform.Translate(_movement * movementSpeed * Time.deltaTime, Space.World);
+
+        Vector3 _move = transform.right * _horizontal + transform.forward * _vertical;
+        characterController.Move(_move * movementSpeed * Time.deltaTime);
     }
 
-    void HandleRotationInput()
-    {
-        RaycastHit _hit;
-        Ray _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-        if (Physics.Raycast(_ray, out _hit))
-        {
-            transform.LookAt(new Vector3(_hit.point.x, transform.position.y, _hit.point.z));
-        }
-    }
+   
 }
