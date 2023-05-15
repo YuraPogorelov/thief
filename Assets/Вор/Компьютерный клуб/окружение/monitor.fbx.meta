@@ -3,7 +3,17 @@ guid: 21bf6a7874ca3624da227dfc60fa84c0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 70d92d56a2a308545b66df2fa47377db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: csgo
+    second: {fileID: 2100000, guid: 7106b4e6384f8cc4b8d3b6cfc8dcd5d8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

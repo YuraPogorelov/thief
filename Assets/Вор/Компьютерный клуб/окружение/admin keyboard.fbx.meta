@@ -3,7 +3,17 @@ guid: c781045dad4df384eb7c1dc01401551a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black.002
+    second: {fileID: 2100000, guid: 8e59b206716c4a2489d34635224fcd02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: keyboard.001
+    second: {fileID: 2100000, guid: b2ecf55b599b66a479bcb8fd12532f96, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
