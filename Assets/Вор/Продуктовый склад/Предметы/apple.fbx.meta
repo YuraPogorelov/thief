@@ -3,7 +3,22 @@ guid: a23a172b4347e3f43a6d69c02c746286
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apple
+    second: {fileID: 2100000, guid: c828d2b8785a5ac4d999e0cc8ff49cc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apple stalk
+    second: {fileID: 2100000, guid: b4d8438e5f882134386b3b1609778f8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown
+    second: {fileID: 2100000, guid: 77e86924a35f2204a9aba2167339b749, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

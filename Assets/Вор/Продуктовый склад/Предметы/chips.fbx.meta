@@ -3,7 +3,62 @@ guid: 4ee9648592de7d14e8a92362c931b09e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chips box in
+    second: {fileID: 2100000, guid: 9b0ea0804a03885438742d4e9b4c51b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chips box out
+    second: {fileID: 2100000, guid: 73aa19e30b2192148a9f07683adcbe66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chips1
+    second: {fileID: 2100000, guid: 046916e9e90ee5a4d96bedf5f63c22c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chips2
+    second: {fileID: 2100000, guid: 7a7fdd6be6f223649bc9f2e2e4141839, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chips3
+    second: {fileID: 2100000, guid: 1fa694daa4bddc54d870147f877d1373, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lays1
+    second: {fileID: 2100000, guid: c448c66aab34fe349a1fe7fbbd9b0ba4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lays2
+    second: {fileID: 2100000, guid: e8447856e946c62449838850ff7e45e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lays3
+    second: {fileID: 2100000, guid: acda7c0f984933648a878c9df6802922, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lays1
+    second: {fileID: 2800000, guid: 184165eed13eea7419ad8363cab60616, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lays2
+    second: {fileID: 2800000, guid: 30115c4ac2dfa7c4d9e1870745789ea6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lays3
+    second: {fileID: 2800000, guid: c700b69b61254fe4b935205d09492c67, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,12 @@ guid: 74a659cbbb29d2f47ad6a400e6118283
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kitkat-logo
+    second: {fileID: 2800000, guid: bf2a9cfa6d9882848bdee82cac23d41c, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

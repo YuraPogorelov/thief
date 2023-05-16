@@ -3,7 +3,37 @@ guid: 6fa9ad94534be9245ab27280e48945d1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coca
+    second: {fileID: 2100000, guid: 9e28703c4e4240d4d844e30d2e49e704, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cola
+    second: {fileID: 2100000, guid: 482b2655dd00458418cec6c99c88c822, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: empty
+    second: {fileID: 2100000, guid: 20e055ab2a636364bbf2697b7922244b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: film
+    second: {fileID: 2100000, guid: 507a90eaf860ba24bac73aec01e7e946, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: f7ef8ae841377ae4787bce27a5de6fb1, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: coca cola
+    second: {fileID: 2800000, guid: a0813486f6e4b024fb765d6dfc6f24c1, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

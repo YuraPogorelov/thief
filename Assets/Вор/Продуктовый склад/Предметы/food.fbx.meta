@@ -3,7 +3,187 @@ guid: bdd98cdf767064a4cb2f5725e539bcdc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: activia
+    second: {fileID: 2100000, guid: 234e47bf5894f8e49a1a8e9d170b54b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apple
+    second: {fileID: 2100000, guid: e5bb826fd4e227347933ed74d4edff01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apple stalk
+    second: {fileID: 2100000, guid: ff1568a32c9d88940bd61badb868f12e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: background
+    second: {fileID: 2100000, guid: 9aff70c9da4677b4d8ef7e944e350c25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue
+    second: {fileID: 2100000, guid: cb38f498fe70a1745b8c779408976ce0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown
+    second: {fileID: 2100000, guid: 3e7f9d18f86c0434f965fb5e197d7e59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chips box in
+    second: {fileID: 2100000, guid: da1bfd3489d415049b4694eebeeb7703, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chips box out
+    second: {fileID: 2100000, guid: d7b9a9fa2e09d8d498a97910d388709f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chips1
+    second: {fileID: 2100000, guid: a3a62e0c169514c4890e06d02dce5e49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chips2
+    second: {fileID: 2100000, guid: 3b33f9b3037fe1c498f6f8690e51e636, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chips3
+    second: {fileID: 2100000, guid: 68076e8af78b8ea4fa42143047452640, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coca
+    second: {fileID: 2100000, guid: 11ecdd37952bccb4fa2474d3adc42c35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cola
+    second: {fileID: 2100000, guid: 8bacd56c711bfed49ab2e4511a44b3cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: empty
+    second: {fileID: 2100000, guid: 4c49ab7c0b9139e4bb572f3f2427c6c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: file
+    second: {fileID: 2100000, guid: bb31e289c82eede4f822792828aa6e81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: film
+    second: {fileID: 2100000, guid: 1de1a03171f00a747aff94b7fc325666, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green
+    second: {fileID: 2100000, guid: 86db0afb79fbf6e43b4cee366ca292bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: inside
+    second: {fileID: 2100000, guid: d34554a0060e1eb48a45b3d7b2738da0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kitkat
+    second: {fileID: 2100000, guid: 0789e60bc851a2846be6629407ca30bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lays1
+    second: {fileID: 2100000, guid: db0473d6007212b4bb284d765a12193e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lays2
+    second: {fileID: 2100000, guid: 54c41ba21162def4fa333be0dfe428f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lays3
+    second: {fileID: 2100000, guid: 2d5de88329acab049889eae2c1ab8e25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light green
+    second: {fileID: 2100000, guid: 2d6ad197e4b83c346846fac487c56ca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: outside
+    second: {fileID: 2100000, guid: c721e9d5d231d31498498c061aa6ce0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pig
+    second: {fileID: 2100000, guid: 96bc97c8991fcc945ab1a40391a3ffe3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: red
+    second: {fileID: 2100000, guid: 3b83456c3bcf18b4cb903572e18e1c3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sausage
+    second: {fileID: 2100000, guid: 2d4181ee1a245cb478369aa2de8ffc97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yogurt
+    second: {fileID: 2100000, guid: 67c6fbcccb3ab8e4982d36b9895cd1c0, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Activia-Logo
+    second: {fileID: 2800000, guid: 380d8302bbf76b64eba517ff473df34d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: coca cola
+    second: {fileID: 2800000, guid: c598911a59552fe469154494cedee038, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: file
+    second: {fileID: 2800000, guid: cf0f4aec9a6fa0542a235de1acc2945c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kitkat-logo
+    second: {fileID: 2800000, guid: 4b10cc6698ef2d543b7dd32c4b3d6612, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lays1
+    second: {fileID: 2800000, guid: a1bb516b4848e7543a94f48d62b90486, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lays2
+    second: {fileID: 2800000, guid: 27c603eccffee38478d5589f33834e37, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lays3
+    second: {fileID: 2800000, guid: fc82f100c39b48b47990eabeb7209ace, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pig
+    second: {fileID: 2800000, guid: 08d473d7c8b714048b96b1b8df1b2d18, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
