@@ -3,7 +3,87 @@ guid: fc1a7ad250fa4404b8ddba954b42db50
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a4
+    second: {fileID: 2100000, guid: e0212d1360d2a0f46a188d3c03f45c86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 01d81cc21ef7c0c44ac502358677f437, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blue
+    second: {fileID: 2100000, guid: ee306f9525310e64e81e22025baa0b67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown
+    second: {fileID: 2100000, guid: be6b248655d410b45baf330c02d91b18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: diamond
+    second: {fileID: 2100000, guid: 5597942f5b7bee148b018b0b0f4ec047, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dollar
+    second: {fileID: 2100000, guid: 02133019c513274459e73045e18ec10c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gold
+    second: {fileID: 2100000, guid: e3f1e3c774de78e43ab570b8a6c299b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: green
+    second: {fileID: 2100000, guid: 30d7823e8a00b8b4188d4adb7c4d639a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey
+    second: {fileID: 2100000, guid: b02c81a6b9015e646a73f67ca1b41df5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: keypad
+    second: {fileID: 2100000, guid: 984ad681e5e697040a088e3eadcfc97a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: 7b3b10cacdaa8aa47af68e552b4fd20f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pincode
+    second: {fileID: 2100000, guid: 7ab49ab4553660b4890c12a15935cf90, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3035-keypad-front
+    second: {fileID: 2800000, guid: 1b3673f707196ea409e8c38ad2f9b7f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: akcija
+    second: {fileID: 2800000, guid: 3f0e7e269ed5afd48a17de6e8e0d07df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: one dollar
+    second: {fileID: 2800000, guid: 39e6fa90294153f479a948b3753b19db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wallet
+    second: {fileID: 2800000, guid: 5e054fdc531794b49923066178a16933, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

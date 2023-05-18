@@ -3,7 +3,17 @@ guid: 90153230c3fc75c4c9e9b818e09d10e4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: a4
+    second: {fileID: 2100000, guid: fb93cf61792f60b4d96050b90d8c6b62, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: akcija
+    second: {fileID: 2800000, guid: b0e9ae2b3fea60d42b4cfa6dbcdff92f, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

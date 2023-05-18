@@ -3,7 +3,22 @@ guid: 0ada65370bd180f4e826e899065a6553
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: 50cc5285bdd8c0c4498a8454ed33df35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: keyboard
+    second: {fileID: 2100000, guid: 7ac87917285c5134eb4c9ebac95a2ee4, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hp-keyboard
+    second: {fileID: 2800000, guid: 0a9931b57b0f4514c98d425c7fa7f990, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,22 @@ guid: e55c07bf4d0e6da4080a3d530abdb5e3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: deposit box
+    second: {fileID: 2100000, guid: e8d0fcab5cd82634c987f98eb3ea4c89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grey
+    second: {fileID: 2100000, guid: b379d8f083eaa0440802da5c0c70048c, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: deposit box
+    second: {fileID: 2800000, guid: 305947a5cd528dc498c6b002f327b11f, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
