@@ -14,6 +14,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: keyboard.001
     second: {fileID: 2100000, guid: b2ecf55b599b66a479bcb8fd12532f96, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hp-keyboard
+    second: {fileID: 2800000, guid: a1d8915a0e611a64f962970676f983f4, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

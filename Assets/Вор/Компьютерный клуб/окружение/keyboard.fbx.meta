@@ -18,7 +18,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: keyboard
-    second: {fileID: 2800000, guid: 14204d07f15284543a3e646ce7e4bbed, type: 3}
+    second: {fileID: 2800000, guid: 32b906123a4ac054192122eead1f9737, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

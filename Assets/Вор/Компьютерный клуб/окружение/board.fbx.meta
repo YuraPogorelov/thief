@@ -14,6 +14,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: board
     second: {fileID: 2100000, guid: 20b45502f816ffc4db9ee5a4d7ebfc23, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: board
+    second: {fileID: 2800000, guid: 510fa82a67327254cbd818b4fdfd80f6, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
